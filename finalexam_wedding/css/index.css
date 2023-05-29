@@ -1,0 +1,527 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  
+
+  background: white !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(31, 31, 31);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.mynavbar {
+  list-style: none;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+}
+.logo {
+  font-family: "Albegos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+
+  color: #ffffff;
+}
+.scroll {
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.scroll .logo {
+  color: black;
+}
+.navbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-items li a {
+ 
+  text-decoration: none;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  padding: 0 30px;
+
+  color: #ffffff;
+}
+.scroll .navbar-items li a {
+  color: black;
+}
+.search input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.scroll .search input {
+  border-bottom: 1px solid black;
+  color: black;
+}
+.search input::placeholder {
+  font-family: "Plantagenet Cherokee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: white;
+}
+.scroll .search input::placeholder {
+  color: black;
+}
+
+.searc_icon {
+  position: absolute;
+  color: white;
+  right: 2px;
+  bottom: 7px;
+}
+.scroll .searc_icon {
+  color: black;
+}
+.mob_nav {
+  display: none;
+}
+.mob_nav .navbar-toggler {
+  outline: none;
+  border: none;
+  transition: 0.2s;
+}
+.mob_nav .navbar-toggler:hover {
+  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+}
+.mob_nav .navbar-toggler:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.mob_nav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.scroll .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.mybrandcolor {
+  font-family: "Albegos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+
+  color: #ffffff;
+}
+.scroll .mybrandcolor {
+  color: black;
+}
+.myoffcanvas_title {
+  font-family: "Albegos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: black;
+}
+.myofbody .nav-item .nav-link {
+  text-decoration: none;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+
+  color: black;
+}
+
+.header_back {
+  background-image: url(../img/header-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+.mob_search {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0%;
+  outline: none;
+  padding: 0px;
+}
+.mob_search:focus {
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.mob_search::placeholder {
+  font-family: "Plantagenet Cherokee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 20px;
+
+  color: black;
+}
+.my_serach_button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.head_tetx_box {
+  height: 80vh;
+}
+.text_wraper {
+  width: 50%;
+}
+.text_wraper h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 47px;
+
+  color: #ffffff;
+}
+.text_wraper p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.text_wraper button {
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 17px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 2px;
+
+  color: #494949;
+  transition: 0.5s;
+}
+.text_wraper button:hover {
+  background-color: rgb(196, 196, 196);
+}
+.trending_back {
+  background-color: white;
+  padding: 90px 0;
+}
+.trend_head h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+}
+.trend_head p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  text-align: center;
+}
+.trend_card {
+  transition: 0.5s;
+  background-color: white;
+  padding: 10px 0;
+}
+.trend_card h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+.trend_card p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  
+
+  color: #767575;
+}
+.trend_card:hover {
+  scale: 1.1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.design_back {
+  background-color: white;
+}
+.img_wrapper {
+  width: 100%;
+  height: 323px;
+}
+.img_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 64% 4%;
+}
+.brand_dress_box .col-lg-6,
+.brand_dress_box .col-lg-12 {
+  margin-top: 20px;
+}
+
+.dres_type {
+  cursor: pointer;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #000000;
+  padding: 0px !important;
+  margin: 15px 0px;
+}
+.dres_type.active2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  color: #9b8c7c;
+  border-bottom: 1px solid #9b8c7c;
+}
+.other_brand {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 0px;
+
+  color: #000000;
+  margin-top: 70px;
+}
+#myBtnContainer {
+  margin: 17% 0px;
+}
+.first_card{
+  margin-top: 150px;
+}
+.second_card{
+  margin-top: 50px;
+}
+.first_card img{
+  width: 80%;
+}
+.second_card img{
+  width: 100%;
+  height: 100%;
+}
+.third_card img{
+  width: 100%;
+  height: 70%;
+  margin-top: 65px;
+  m
+}
+.displayblockornot{
+  display: block;
+}
+.displayblockornot1{
+  display: none;
+}
+.disp1{
+  display: none;
+}
+.text_style1{
+ font-size: 34px;
+ line-height: 40px;
+ font-style: Regular;
+ font-family: Playfair Display;
+}
+.button_catalog{
+background: #9B8C7C;
+color: white;
+border: none;
+padding: 12px 12px;
+}
+.button_catalog1{
+  background: #9B8C7C;
+color: white;
+border: none;
+padding: 10px 42px;
+}
+.button1{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+}
+.img_style{
+  width: 260px;
+  height: 260px;
+}
+.forall{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.mobile_display{
+  display: block;
+}
+.displaybl{
+  display: none;
+}
+.figure{
+  width: 100%;
+  height: 100%;
+}
+.style_but{
+  margin-top: 50px; padding: 8px 85px; background: #9B8C7C; color: white ; border: none;
+}
+.hi{
+  width: 100%;
+  height: 100%;
+}
+.hi img{
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 2099px) {
+  .navbar-items li a {
+    font-size: 15px;
+  }
+  .dispnone{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .navbar-items li a {
+    font-size: 15px;
+  }
+  .dispnone{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .img_style{
+    width: 100%;
+  }
+  .mobilephoto{
+    margin-left: 20px;
+  }
+  .mobile_display{
+    display: none;
+  }
+  .mobile_display1{
+    display: block;
+  }
+  .dispnone{
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mob_nav {
+    display: block;
+  }
+  .text_wraper h1 {
+    font-size: 30px;
+  }
+  .text_wraper p {
+    font-size: 15px;
+  }
+  .text_wraper button {
+    font-size: 16px;
+  }
+  #myBtnContainer {
+    margin: 0px 0px;
+  }
+  .dispnone{
+    display: block !important;
+  }
+  .displaybl{
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .text_wraper {
+    width: 100%;
+  }
+  .text_wraper h1 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 7px;
+
+    color: #494949;
+  }
+  .text_wraper p {
+    display: none;
+  }
+  .text_wraper span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .dispnone{
+    display: block !important;
+  }
+  .displaybl{
+    display: block;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .trend_card:hover {
+    scale: 1;
+    box-shadow: none;
+  }
+  .displayblockornot{
+    display: none;
+  }
+  .displayblockornot1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .disp1{
+    display: block;
+  }
+  .dispnone{
+    display: block !important;
+  }
+  .displaybl{
+    display: block;
+  }
+}
